@@ -6,11 +6,16 @@
 
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Livvic:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Livvic:wght@300&family=Pacifico&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<header>
 			<div class="caixa">
-				<h1><img src="logo.png" alt="Logo da Barbearia Alura"></h1>
+				<h1><img src="Fotos/logo.jpg" alt="Logo da Barbearia Alura"></h1>
 
 				<nav>
 					<ul>
@@ -22,7 +27,7 @@
 			</div>
 		</header>
 
-		<main>
+		<main class="maincontato">
 			<form>
 				<label for="nomesobrenome">Nome e sobrenome</label>
 				<input type="text" id="nomesobrenome" class="input-padrao" required>
@@ -31,11 +36,11 @@
 				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
 				<label for="telefone">Telefone</label>
-				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+				<input type="tel" id="telefone" pattern="^\d{4}-\d{3}-\d{4}$" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
 				<label for="mensagem">Mensagem</label>
 				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-
+				
 				<fieldset>
 					<legend>Como prefere o nosso contato?</legend>
 					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
@@ -47,7 +52,7 @@
 
 				<fieldset>
 					<legend>Qual horário prefere ser atendido?</legend>
-					<select>
+					<select class="horarios">
 						<option>Manhã</option>
 						<option>Tarde</option>
 						<option>Noite</option>
@@ -59,13 +64,17 @@
 				<input type="submit" value="Enviar formulário" class="enviar">
 			</form>
 
-			<table>
+			<table class="dia">
 				<tr>
-					<td>Dia</td>
-					<td>Horário</td>
+					<td class="titulotabela">Dia</td>
+					<td class="titulotabela">Horário</td>
 				</tr>
 				<tr>
 					<td>Segunda</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Terça</td>
 					<td>8h ~ 20h</td>
 				</tr>
 				<tr>
@@ -73,15 +82,19 @@
 					<td>8h ~ 20h</td>
 				</tr>
 				<tr>
-					<td>Sexta</td>
+					<td>Quinta</td>
 					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Sexta</td>
+					<td>8h ~ 18h</td>
 				</tr>
 			</table>
 		</main>
 
 		<footer>
-			<img src="logo-branco.png" alt="Logo da Barbearia Alura">
-			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+			<img src="Fotos/logo.jpg">
+			<a href=http://beacons.ai/lucascruz772 target="_blank"><p class="copyright" style="color:black">&copy; Copyright Lucas Miranda - 2022</p></a>
 		</footer>
 	</body>
 </html>

@@ -77,11 +77,13 @@ nav a:hover {
 	font-size: 30px;
 	font-weight: bold;
 	font-family: 'Pacifico', cursive;
+	margin-block: 30px;
 }
 
 .produto-descricao {
 	font-size: 18px;
 	font-family: 'Pacifico', cursive;
+	margin-block: 30px;
 }
 
 
@@ -303,19 +305,54 @@ section .beneficios{
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+	.caixa, .principal, .conteudo-beneficios, .produtos, .mapa-conteudo, .produtos li, .video {
+		width: auto;
+	}
+
+	.iprodutos, #banhotosa, #vacinas {
+		width: 80px;
+		height: 200px;
+	}
+
+	.produtos li {
+		margin: 14px;
+		padding-block: 20px;
+	}
+
+	.horarios {
+		margin-left: 30px;
+	}
+
+	.produtos h2{
+		margin-block: 20px;
+	}
+
+	.enviar {
 		width: auto;
 	}
 
 	h1 {
 		text-align: center;
+
+	}
+
+	h1 > img{
+		width: 200px;
+		padding-bottom: 30px;
 	}
 
 	nav {
 		position: static;
+
 	}
+
+	nav a {
+		font-size: 14px;
+	}
+
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
+
 }

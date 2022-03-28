@@ -338,7 +338,6 @@ section .beneficios{
 
 	img{
 		width: 150px;
-		padding-bottom: 30px;
 	}
 
 	nav {
@@ -378,6 +377,7 @@ section .beneficios{
 
 	.horarios{
 		margin-left: 25px;
+		padding-right: 5px;
 	}
 
 	.enviar{

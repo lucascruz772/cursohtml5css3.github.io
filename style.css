@@ -10,9 +10,14 @@ header {
 	margin: 0 auto;
 }
 
+.foto-logo{
+	position: relative;
+	right: 80px;
+}
+
 nav {
 	position: absolute;
-	top: 110px;
+	top: 45%;
 	right: 0;
 	
 }
@@ -77,11 +82,13 @@ nav a:hover {
 	font-size: 30px;
 	font-weight: bold;
 	font-family: 'Pacifico', cursive;
+	padding-bottom: 15px
 }
 
 .produto-descricao {
 	font-size: 18px;
 	font-family: 'Pacifico', cursive;
+	padding-block: 15px;
 }
 
 
@@ -150,6 +157,7 @@ form label, form legend {
 	transition: 1s all;
 	cursor: pointer;
 	margin-left: 30px;
+	margin-top: 20px;
 }
 
 .enviar:hover {
@@ -362,5 +370,9 @@ section .beneficios{
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
+	}
+
+	.foto-logo{
+		position:static;
 	}
 }

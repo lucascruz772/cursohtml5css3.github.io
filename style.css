@@ -303,7 +303,7 @@ section .beneficios{
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+	.caixa, .principal, .conteudo-beneficios, .produtos, .mapa-conteudo, .video {
 		width: auto;
 	}
 

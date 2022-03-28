@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: red;
 	text-decoration: underline;
 }
 
@@ -311,8 +311,53 @@ section .beneficios{
 		text-align: center;
 	}
 
+	img{
+		width: 150px;
+		padding-bottom: 30px;
+	}
+
 	nav {
 		position: static;
+	}
+
+	nav a{
+		font-size: 14px;
+	}
+
+	#banhotosa, #vacinas{
+		width: 50%;
+		height: auto;
+	}
+
+	.produtos img {
+		width: 30%;
+	}
+
+	.produtos li {
+		margin: 20px 4.5%;
+		display: block;
+		width: auto;
+	}
+
+	.produtos h2{
+		padding-bottom: 20px;
+	}
+
+	.input-padrao{
+		padding: 15px 25px;
+	}
+
+	.produtos{
+		padding: 0px 0px 30px 0px;
+	}
+
+	.horarios{
+		margin-left: 25px;
+	}
+
+	.enviar{
+		width: 50%;
+		margin-top: 25px;
 	}
 
 	.lista-beneficios, .imagem-beneficios {

@@ -319,6 +319,23 @@ section .beneficios{
 		text-align: center;
 	}
 
+	.beneficios {
+		padding: 30px 0px;
+	}
+
+	.imagem-beneficios{
+		box-shadow: none;
+		margin-top: 18px;
+	}
+
+	.titulo-principal{
+		margin-top: 0px;
+	}
+
+	.mapa{
+		padding:0px;
+	}
+
 	img{
 		width: 150px;
 		padding-bottom: 30px;

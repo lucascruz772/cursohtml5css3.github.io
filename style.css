@@ -1,34 +1,26 @@
 
 header {
 	background: #fee6b8;
-	padding: 65px 0;
+	padding: 20px 0;
 }
 
 .caixa {
 	position: relative;
-	left: 100px;
 	width: 940px;
-	margin: 0px;
-	float:initial;
+	margin: 0 auto;
 }
 
 nav {
-	position: relative;
-	top: -230px;
-	left: 150px;
-	float:right;
+	position: absolute;
+	top: 110px;
+	right: 0;
 	
 }
-
 
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;
 	font-family: 'Pacifico', cursive;
-}
-
-.navbar-light .navbar-toggler-icon{
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 nav a {
@@ -39,17 +31,8 @@ nav a {
 	text-decoration: none;
 }
 
-.navbar-toggler-icon{
-	display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: 50%/100% 100% no-repeat;
-}
-
 nav a:hover {
-	color: red;
+	color: #C78C19;
 	text-decoration: underline;
 }
 
@@ -58,7 +41,7 @@ nav a:hover {
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-	padding: 20px 0px 50px 0px;
+	padding: 50px 0;
 	background: white;
 }
 
@@ -94,13 +77,11 @@ nav a:hover {
 	font-size: 30px;
 	font-weight: bold;
 	font-family: 'Pacifico', cursive;
-	margin-block: 30px;
 }
 
 .produto-descricao {
 	font-size: 18px;
 	font-family: 'Pacifico', cursive;
-	margin-block: 30px;
 }
 
 
@@ -198,8 +179,6 @@ td, th {
 .titulotabela{
 	background: #ffc367;
 }
-
-
 
 /* css da página inicial */
 .banner {
@@ -324,54 +303,19 @@ section .beneficios{
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .produtos, .mapa-conteudo, .produtos li, .video {
-		width: auto;
-	}
-
-	.iprodutos, #banhotosa, #vacinas {
-		width: 80px;
-		height: 200px;
-	}
-
-	.produtos li {
-		margin: 14px;
-		padding-block: 20px;
-	}
-
-	.horarios {
-		margin-left: 30px;
-	}
-
-	.produtos h2{
-		margin-block: 20px;
-	}
-
-	.enviar {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
 	}
 
 	h1 {
 		text-align: center;
-
-	}
-
-	h1 > img{
-		width: 200px;
-		padding-bottom: 30px;
 	}
 
 	nav {
 		position: static;
-
 	}
-
-	nav a {
-		font-size: 14px;
-	}
-
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
-
 }
